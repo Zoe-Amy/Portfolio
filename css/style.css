@@ -1,0 +1,1031 @@
+img {
+    width: 100%;
+}
+video {
+    width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica-lt-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  font-size: 14px;    
+}
+
+.home-btn img {
+    position: fixed;
+    padding: 15px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    z-index: 1000;
+}
+.home-btn:hover img {
+    transform: scale(1.1);
+}
+@media (max-width: 700px) {
+    body {
+        font-size: 11px;
+    }
+  
+    img.projekte {
+        width: auto;
+        height: 100vh;
+        max-height: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
+/* =======================================
+   Projekte
+======================================= */
+
+.projekte {
+    width: 100%;         
+    max-width: 4000px;  
+    position: relative;
+    margin: 0%;
+    transform-origin: top left;
+}
+
+.projekte__projekt {
+    position: absolute;
+}
+
+.projekte__projekt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* =======================================
+   Plattencover
+======================================= */
+.projekte__projekt--Plattencover {
+    width: calc(262 / 4000 * 100%);
+    height: calc(293 / 2700 * 100%);
+    left: calc(775 / 4000 * 100%);
+    top: calc(716 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--Plattencover:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Blickwechsel
+======================================= */
+.projekte__projekt--Blickwechselplakat {
+    width: calc(486 / 4000 * 100%);
+    height: calc(796 / 2700 * 100%);
+    left: calc(2733 / 4000 * 100%);
+    top: calc(156 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--Blickwechselplakat:hover{
+    transform: scale(1.05);
+}
+
+.projekte__projekt--zeitung {
+    width: calc(615 / 4000 * 100%);
+    height: calc(338 / 2700 * 100%);
+    left: calc(1783/ 4000 * 100%);
+    top: calc(1460 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--zeitung:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   London
+======================================= */
+.projekte__projekt--London {
+     width: calc(181 / 4000 * 100%);
+    height: calc(308 / 2700 * 100%);
+    left: calc(1031 / 4000 * 100%);
+    top: calc(1022 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--London :hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   CorperateDesign
+======================================= */
+.projekte__projekt--CPdesign {
+    width: calc(318 / 4000 * 100%);
+    height: calc(185 / 2700 * 100%);
+    left: calc(1279 / 4000 * 100%);
+    top: calc(945 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--CPdesign:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Typodesign
+======================================= */
+.projekte__projekt--typo {
+    width: calc(289 / 4000 * 100%);
+    height: calc(366 / 2700 * 100%);
+    left: calc(1212 / 4000 * 100%);
+    top: calc(442 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--typo:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Wasserfarbbilder
+======================================= */
+.projekte__projekt--Zitrone {
+    width: calc(194 / 4000 * 100%);
+    height: calc(142 / 2700 * 100%);
+    left: calc(2566 / 4000 * 100%);
+    top: calc(990 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--Zitrone:hover{
+    transform: scale(1.05);
+}
+
+.projekte__projekt--Zitronensaft {
+    width: calc(80 / 4000 * 100%);
+    height: calc(223 / 2700 * 100%);
+    left: calc(3079 / 4000 * 100%);
+    top: calc(980 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--Zitronensaft:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Motion Graphics
+======================================= */
+.projekte__projekt--motion {
+    position: absolute;
+    z-index: 1;
+    width: calc(383 / 4000 * 100%);
+    height: calc(343 / 2700 * 100%);
+    left: calc(176 / 4000 * 100%);
+    top: calc(1715 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--motion:hover {
+    transform: scale(1.05);
+}
+
+.projekte__projekt--animotion {
+    position: absolute;
+    z-index: 10;
+    width: calc(161 / 4000 * 100%);
+    height: calc(174 / 2700 * 100%);
+    left: calc(214 / 4000 * 100%);
+    top: calc(1790 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--animotion:hover {
+    transform: scale(1.05);
+}
+.projekte__projekt--animotion img,
+.projekte__projekt--motion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* =======================================
+   MAK
+======================================= */
+.projekte__projekt--MAK {
+    width: calc(554 / 4000 * 100%);
+    height: calc(887 / 2700 * 100%);
+    left: calc(71 / 4000 * 100%);
+    top: calc(541 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--MAK:hover{
+    transform: scale(1.05);
+}
+
+.projekte__projekt--handy {
+    width: calc(228 / 4000 * 100%);
+    height: calc(151 / 2700 * 100%);
+    left: calc(2272 / 4000 * 100%);
+    top: calc(1770 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--handy:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Postkarten
+======================================= */
+.projekte__projekt--postkarten {
+    width: calc(288 / 4000 * 100%);
+    height: calc(285 / 2700 * 100%);
+    left: calc(2150 / 4000 * 100%);
+    top: calc(990 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--postkarten:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Tech. Illustration
+======================================= */
+.projekte__projekt--illu {
+    width: calc(138 / 4000 * 100%);
+    height: calc(173 / 2700 * 100%);
+    left: calc(1683 / 4000 * 100%);
+    top: calc(749 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--illu:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Bild Paris
+======================================= */
+.projekte__projekt--paris {
+    width: calc(1058 / 4000 * 100%);
+    height: calc(271 / 2700 * 100%);
+    left: calc(224 / 4000 * 100%);
+    top: calc(62 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--paris:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   Ring
+======================================= */
+.projekte__projekt--ring{
+    width: calc(456.99 / 4000 * 100%);
+    height: calc(325 / 2700 * 100%);
+    left: calc(1587 / 4000 * 100%);
+    top: calc(107 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--ring:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   analog
+======================================= */
+.projekte__projekt--analog1{
+    width: calc(526 / 4000 * 100%);
+    height: calc(1289 / 2700 * 100%);
+    left: calc(3408 / 4000 * 100%);
+    top: calc( 160 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--ring:hover{
+    transform: scale(1.05);
+}
+
+/* =======================================
+   portrait
+======================================= */
+.projekte__projekt--zuzu{
+    width: calc(160 / 4000 * 100%);
+    height: calc(240 / 2700 * 100%);
+    left: calc(2163 / 4000 * 100%);
+    top: calc(678 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--zuzu:hover{
+    transform: scale(1.05);
+}
+
+
+/* =======================================
+   Raster
+======================================= */
+.projektraster {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 6px 6px;
+}
+
+/* =======================================
+   London-projekt
+======================================= */
+    .projektraster__introbild1 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__london-titel {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__london-text {
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+    .projektraster__london-bild1{
+        grid-column: 4 / 16;
+        grid-row: 4 / 5;
+    }
+    .projektraster__london-bild2{
+        grid-column: 4 / 10;
+        grid-row: 5 / 6;
+    }
+    .projektraster__london-bild3{
+        grid-column: 10 / 16;
+        grid-row: 5 / 6;
+    }
+    .projektraster__london-bild4{
+        grid-column: 4 / 16;
+        grid-row: 6 / 7;
+    }
+    .projektraster__london-bild5{
+        grid-column: 4 / 10;
+        grid-row: 7 / 8;
+    }
+    .projektraster__london-bild6{
+        grid-column: 10 / 16;
+        grid-row: 7 / 8;
+    }
+    .projektraster__london-bild7{
+        grid-column: 4 / 16;
+        grid-row: 8 / 9;
+    }
+    .projektraster__london-bild8{
+        grid-column: 4 / 10;
+        grid-row: 9 / 10;
+    }
+    .projektraster__london-bild9{
+        grid-column: 10 / 16;
+        grid-row: 9 / 10;
+    }
+
+    .projektraster__london-titel2 {
+        grid-column: 1 / 3;
+        grid-row: 10 / 11;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+    }
+    .projektraster__london-text2 {
+        grid-column: 4 / 12;
+        grid-row: 10 / 11;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__london-bild10{
+        grid-column: 4 / 10;
+        grid-row: 11 / 12;
+        margin-top: 20px;
+    }
+    .projektraster__london-bild11{
+        grid-column: 10 / 16;
+        grid-row: 11 / 12;
+        margin-top: 20px;
+    }
+    .projektraster__london-bild12{
+        grid-column: 4 / 10;
+        grid-row: 12 / 13;
+    }
+    .projektraster__london-bild13{
+        grid-column: 10 / 16;
+        grid-row: 12 / 13;
+    }
+    .projektraster__london-bild14{
+        grid-column: 4 / 16;
+        grid-row: 13 / 14;
+    }
+
+    .projektraster__london-titel3 {
+        grid-column: 1 / 3;
+        grid-row: 14 / 15;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+    }
+    .projektraster__london-text3 {
+        grid-column: 4 / 12;
+        grid-row: 14 / 15;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .projektraster__london-bild15{
+        grid-column: 4 / 10;
+        grid-row: 15 / 16;
+    }
+     .projektraster__london-bild16{
+        grid-column: 10 / 16;
+        grid-row: 15 / 16;
+    }
+
+    .projektraster__london-titel4 {
+        grid-column: 1 / 3;
+        grid-row: 16 / 17;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__london-text4 {
+        grid-column: 4 / 12;
+        grid-row: 16 / 17;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+/* =======================================
+   Prepress-projekt
+======================================= */
+
+    .projektraster__introbild2 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__postkarte-titel1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__postkarte-text1{
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+    .projektraster__postkarte-bild1{
+        grid-column: 4 / 10;
+        grid-row: 4 / 5;
+    }
+    .projektraster__postkarte-bild2{
+        grid-column: 10 / 16;
+        grid-row: 4 / 5;
+    }
+    .projektraster__postkarte-bild3{
+        grid-column: 4 / 13;
+        grid-row: 5 / 6;
+    }
+
+    .projektraster__postkarte-titel2 {
+        grid-column: 1 / 3;
+        grid-row: 8 / 9;
+        text-align: right;
+        padding-left: 25%;
+    }
+    .projektraster__postkarte-bild4{
+        grid-column: 4 / 10;
+        grid-row: 8 / 9;
+    }
+    .projektraster__postkarte-bild5{
+        grid-column: 4 / 10;
+        grid-row: 9 / 10;
+    }
+    .projektraster__postkarte-bild6{
+        grid-column: 10 / 16;
+        grid-row: 8 / 10;
+    }
+    .projektraster__postkarte-bild7{
+        grid-column: 4 / 16;
+        grid-row: 11 / 12;
+    }
+
+    .projektraster__postkarte-titel3 {
+        grid-column: 1 / 3;
+        grid-row: 13 / 14;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__postkarte-text2{
+        grid-column: 4 / 12;
+        grid-row: 13 / 14;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+
+/* =======================================
+   Blickwechsel
+======================================= */
+    .projektraster__introbild3 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__Blickwechsel-titel1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__Blickwechsel-text1{
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+
+    .projektraster__Blickwechsel-bild1{
+        grid-column: 4 / 8;
+        grid-row: 4 / 5;
+    }
+    .projektraster__Blickwechsel-bild2{
+        grid-column: 8 / 12;
+        grid-row: 4 / 5;
+    }
+    .projektraster__Blickwechsel-bild3{
+        grid-column: 12 / 16;
+        grid-row: 4 / 5;
+    }
+    .projektraster__Blickwechsel-bild4{
+        grid-column: 4 / 8;
+        grid-row: 5 / 6;
+    }
+    .projektraster__Blickwechsel-bild5{
+        grid-column: 8 / 12;
+        grid-row: 5 / 6;
+    }
+    .projektraster__Blickwechsel-bild6{
+        grid-column: 12 / 16;
+        grid-row: 5 / 6;
+    }
+    .projektraster__Blickwechsel-bild7{
+        grid-column: 4 / 8;
+        grid-row: 6 / 7;
+    }
+
+    .projektraster__Blickwechsel-animation{
+        grid-column: 4 / 8 ;
+        grid-row: 8 / 9;
+    }
+
+    .projektraster__Blickwechsel-titel2{
+        grid-column: 1 / 3;
+        grid-row: 10 / 11;
+        text-align: right;
+        padding-left: 25%;
+    }
+    .projektraster__Blickwechsel-text2{
+        grid-column: 4 / 12;
+        grid-row: 10 / 11;
+    }
+    .projektraster__Blickwechsel-bild8{
+        grid-column: 4 / 16;
+        grid-row: 12 / 13;
+    }
+    .projektraster__Blickwechsel-bild9{
+        grid-column: 4 / 10;
+        grid-row: 13 / 14;
+    }
+    .projektraster__Blickwechsel-bild10{
+        grid-column: 10 / 16;
+        grid-row: 13 / 14;
+    }
+    .projektraster__Blickwechsel-bild11{
+        grid-column: 4 / 10;
+        grid-row: 14 / 15;
+    }
+    .projektraster__Blickwechsel-bild12{
+        grid-column: 10 / 16;
+        grid-row: 14 / 15;
+    }
+
+    .projektraster__Blickwechsel-titel3{
+        grid-column: 1 / 3;
+        grid-row: 16 / 17;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__Blickwechsel-text3{
+        grid-column: 4 / 12;
+        grid-row: 16 / 17;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+/* =======================================
+MAK
+======================================= */
+    .projektraster__introbild4 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__MAK-titel1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__MAK-text1{
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+
+    .projektraster__MAK-titel2{
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+        text-align: right;
+        padding-left: 25%;
+    }
+    .projektraster__MAK-animation1{
+        grid-column: 4 / 10;
+        grid-row: 4 / 5;
+    }
+    .projektraster__MAK-animation2{
+        grid-column: 10 / 16;
+        grid-row: 4 / 5;
+    }
+
+    .projektraster__MAK-titel3{
+        grid-column: 1 / 3;
+        grid-row: 6 / 7;
+        text-align: right;
+        padding-left: 25%;
+    }
+    .projektraster__MAK-animation3{
+        grid-column: 4 / 10;
+        grid-row: 6 / 7;
+    }
+
+    .projektraster__MAK-bild1{
+        grid-column: 4 / 8;
+        grid-row: 4 / 5;
+    }
+
+    .projektraster__MAK-titel4{
+        grid-column: 1 / 3;
+        grid-row: 9 / 10;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__MAK-text4{
+        grid-column: 4 / 12;
+        grid-row: 9 / 10;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+/* =======================================
+   Motion Graphics
+======================================= */
+    .projektraster__introbild5 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__motion-titel1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__motion-text1{
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+    .projektraster__motion-animation1{
+        grid-row: 4 / 5;
+        grid-column: 4 / 10; 
+        position: relative;
+        height: 500px; 
+    }
+
+    .projektraster__motion-animation2 {
+        grid-row: 4 / 5;
+        grid-column: 10 / 16; 
+        position: relative;
+        height: 500px; 
+    }
+    .projektraster__motion-animation1 {
+        grid-column: 4 / 10;
+        grid-row: 4 / 5;
+        position: relative;
+    }
+    .video-switch {
+        position: relative;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+    }
+    .video-switch input {
+        display: none;
+    }
+    .video-switch video {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+    .video2 {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .video-switch input:checked ~ .video2 {
+        opacity: 1;
+    }
+    .video-switch input:checked ~ .video1 {
+        opacity: 0;
+    }
+
+    .projektraster__motion-animation2{
+        grid-column: 10 / 16;
+        grid-row: 4 / 5;
+    }
+    
+    .projektraster__motion-titel2{
+        grid-column: 1 / 3;
+        grid-row: 6 / 7;
+        text-align: right;
+        padding-left: 25%;
+    }
+    .projektraster__motion-bild1{
+        grid-column: 4 / 8;
+        grid-row: 6 / 7;
+    }
+    .projektraster__motion-bild2{
+        grid-column: 8 / 12;
+        grid-row: 6 / 7;
+    }
+    .projektraster__motion-bild3{
+        grid-column: 12 / 16;
+        grid-row: 6 / 7;
+    }
+    .projektraster__motion-bild4{
+        grid-column: 4 / 8;
+        grid-row: 7 / 8;
+    }
+    .projektraster__motion-bild5{
+        grid-column: 8 / 12;
+        grid-row: 7 / 8;
+    }
+
+    .projektraster__motion-titel3{
+        grid-column: 1 / 3;
+        grid-row: 9 / 10;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__motion-text3{
+        grid-column: 4 / 12;
+        grid-row: 9 / 10;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+/* =======================================
+   Corperate Design
+======================================= */
+    .projektraster__introbild6 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__CP-titel1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__CP-text1{
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+
+    .projektraster__CP-bild1{
+        grid-column: 4 / 10;
+        grid-row: 4 / 5;
+    }
+    .projektraster__CP-bild2{
+        grid-column: 10 / 16;
+        grid-row: 4 / 5;
+    }
+    .projektraster__CP-bild3{
+        grid-column: 4 / 16;
+        grid-row: 5 / 6;
+    }
+
+    .projektraster__CP-titel2{
+        grid-column: 1 / 3;
+        grid-row: 7 / 8;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__CP-bild4{
+        grid-column: 4 / 16;
+        grid-row: 7 / 8;
+    }
+    .projektraster__CP-titel4{
+        grid-column: 1 / 3;
+        grid-row: 8 / 9;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__CP-bild5{
+        grid-column: 4 / 16;
+        grid-row: 8 / 9;
+        margin-top: 20px;
+    }
+    .projektraster__CP-bild6{
+        grid-column: 4 / 10;
+        grid-row: 9 / 10;
+    }
+    .projektraster__CP-bild7{
+        grid-column: 10 / 16;
+        grid-row: 9 / 10;
+    }
+
+    .projektraster__CP-titel3{
+        grid-column: 1 / 3;
+        grid-row: 12 / 13;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__CP-text3{
+        grid-column: 4 / 12;
+        grid-row: 12 / 13;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+/* =======================================
+   Tech. Illustration
+======================================= */
+    .projektraster__introbild7 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-titel1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-text1{
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+
+    .projektraster__illu-bild1{
+        grid-column: 4 / 16;
+        grid-row: 4 / 5;
+    }
+    .projektraster__illu-bild2{
+        grid-column: 4 / 16;
+        grid-row: 5 / 6;
+    }
+    .projektraster__illu-bild3{
+        grid-column: 4 / 16;
+        grid-row: 6 / 7;
+    }
+    .projektraster__illu-titel2{
+        grid-column: 1 / 3;
+        grid-row: 7 / 8;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-text2{
+        grid-column: 4 / 12;
+        grid-row: 7 / 8;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-bild4{
+        grid-column: 4 / 10;
+        grid-row: 8 / 9;
+    }
+    .projektraster__illu-bild5{
+        grid-column: 10 / 16;
+        grid-row: 8 / 9;
+    }
+    .projektraster__illu-bild6{
+        grid-column: 4 / 16;
+        grid-row: 9 / 10;
+    }
+    .projektraster__illu-bild7{
+        grid-column: 4 / 16;
+        grid-row: 10 / 11;
+    }
+    .projektraster__illu-titel4{
+        grid-column: 1 / 3;
+        grid-row: 11 / 12;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-bild8{
+        grid-column: 4 / 16;
+        grid-row: 12 / 13;
+    }
+    .projektraster__illu-bild9{
+        grid-column: 4 / 10;
+        grid-row: 13 / 14;
+    }
+    .projektraster__illu-bild10{
+        grid-column: 10 / 16;
+        grid-row: 13 / 14;
+    }
+    .projektraster__illu-titel3{
+        grid-column: 1 / 3;
+        grid-row: 14 / 15;
+        text-align: right;
+        padding-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-text3{
+        grid-column: 4 / 12;
+        grid-row: 14 / 15;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+/* =======================================
+   Farbe
+======================================= */
+    .projektraster__introbild8 {
+        grid-column: 2 / 16;
+        grid-row: 1 / 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-titel1{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__illu-text1{
+        grid-column: 4 / 12;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+    }
+
+    .projektraster__illu-bild1{
+        grid-column: 4 / 16;
+        grid-row: 4 / 5;
+    }
+    .projektraster__illu-bild2{
+        grid-column: 4 / 16;
+        grid-row: 5 / 6;
+    }
+
+    
+
+
