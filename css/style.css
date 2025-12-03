@@ -1025,6 +1025,14 @@ MAK
         grid-column: 12 / 16;
         grid-row: 3 / 4;
     }
+    .projektraster__farbe-bild3{
+        grid-column: 4 / 12;
+        grid-row: 4 / 5;
+    }
+    .projektraster__farbe-bild3{
+        grid-column: 12 / 16;
+        grid-row: 4 / 5;
+    }
 
 /* =======================================
    3D Typo
