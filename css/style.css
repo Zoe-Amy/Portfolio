@@ -116,6 +116,16 @@ body {
 .projekte__projekt--CPdesign:hover{
     transform: scale(1.05);
 }
+.projekte__projekt--CPdesign2 {
+    width: calc(146.16 / 4000 * 100%);
+    height: calc(163.85 / 2700 * 100%);
+    left: calc(2475.86 / 4000 * 100%);
+    top: calc(736.87 / 2700 * 100%);
+    transition: transform 0.2s ease-out;
+}
+.projekte__projekt--CPdesign2:hover{
+    transform: scale(1.05);
+}
 
 /* =======================================
    Typodesign
@@ -580,29 +590,40 @@ body {
     }
     .projektraster__Blickwechsel-bild4{
         grid-column: 4 / 8;
-        grid-row: 4 / 5;
+        grid-row: 5 / 6;
     }
     .projektraster__Blickwechsel-bild5{
         grid-column: 8 / 12;
-        grid-row: 4 / 5;
+        grid-row: 5 / 6;
     }
     .projektraster__Blickwechsel-bild6{
         grid-column: 12 / 16;
-        grid-row: 4 / 5;
+        grid-row: 5 / 6;
     }
     .projektraster__Blickwechsel-bild7{
         grid-column: 4 / 8;
-        grid-row: 5 / 6 ;
+        grid-row: 6 / 7 ;
     }
-
+    
+    .projektraster__Blickwechsel-bild14{
+        grid-column: 4 / 16;
+        grid-row: 7 / 8 ;
+        z-index: 1;
+    }
     .projektraster__Blickwechsel-animation{
-        grid-column: 4 / 8 ;
-        grid-row:6 / 7;
+        grid-column: 8 / 12 ;
+        grid-row:7 / 8;
+        z-index: 2;
+        margin-top: 40px;
+    }
+    .projektraster__Blickwechsel-bild13{
+        grid-column: 4 / 16;
+        grid-row: 8 / 9 ;
     }
 
-    .projektraster__Blickwechsel-titel2{
+    .projektraster__Blickwechsel-titel2{ 
         grid-column: 1 / 3;
-        grid-row: 8 / 9;
+        grid-row: 9 / 10;
         text-align: right;
         padding-left: 25%;
         margin-top: 20px;
@@ -610,34 +631,34 @@ body {
     }
     .projektraster__Blickwechsel-text2{
         grid-column: 4 / 12;
-        grid-row: 8 / 9;
+        grid-row: 9 / 10;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     .projektraster__Blickwechsel-bild8{
         grid-column: 4 / 16;
-        grid-row: 9 / 10;
+        grid-row: 10 / 11;
     }
     .projektraster__Blickwechsel-bild9{
         grid-column: 4 / 10;
-        grid-row: 10 / 11;
+        grid-row: 11 / 12;
     }
     .projektraster__Blickwechsel-bild10{
         grid-column: 10 / 16;
-        grid-row: 10 / 11;
+        grid-row: 11 / 12;
     }
     .projektraster__Blickwechsel-bild11{
         grid-column: 4 / 10;
-        grid-row: 11 / 12;
+        grid-row: 13 / 14;
     }
     .projektraster__Blickwechsel-bild12{
         grid-column: 10 / 16;
-        grid-row: 11 / 12;
+        grid-row: 13 / 14;
     }
 
     .projektraster__Blickwechsel-titel3{
         grid-column: 1 / 3;
-        grid-row: 13 / 14;
+        grid-row: 14 / 15;
         text-align: right;
         padding-left: 25%;
         margin-top: 20px;
@@ -645,7 +666,7 @@ body {
     }
     .projektraster__Blickwechsel-text3{
         grid-column: 4 / 12;
-        grid-row: 13 / 14;
+        grid-row: 14 / 15;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -694,20 +715,24 @@ body {
         grid-row: 6 / 7 ;
         text-align: right;
         padding-left: 25%;
+        margin-top: 20px;
     }
     .projektraster__MAK-bild1{
         grid-column: 4 / 16;
         grid-row: 6 / 7;
+        margin-top: 20px;
     }
     .projektraster__MAK-titel3{
         grid-column: 1 / 3;
         grid-row: 7 / 8 ;
         text-align: right;
         padding-left: 25%;
+        margin-top: 20px;
     }
     .projektraster__MAK-animation3{
         grid-column: 4 / 10;
         grid-row: 7 / 8;
+        margin-top: 20px;
     }
     
 
@@ -1183,9 +1208,22 @@ body {
         margin-bottom: 20px;
     }
 
+    .projektraster__typo-titel2{
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+    }
+    .projektraster__typo-text2{
+        grid-column: 4 / 12;
+        grid-row: 3 / 4;
+        margin-bottom: 20px;
+    }
+
     .projektraster__typo-bild1{
         grid-column: 4 / 16;
-        grid-row: 3 / 4;
+        grid-row: 4 / 5;
     }
 
 /* =======================================
@@ -1317,7 +1355,7 @@ body {
         margin-bottom: 20px;
     }
     .projektraster__london-text5{
-        grid-column: 10 / 10 !important; 
+        grid-column: 10 / 16 !important; 
         margin-bottom: 20px;
     }
 }
