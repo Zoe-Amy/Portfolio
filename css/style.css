@@ -1391,7 +1391,8 @@ body {
     .projektraster__foto-text1,
     .projektraster__foto-text2,
     .projektraster__foto-text3
-    .projektraster__CP-text1{
+    .projektraster__CP-text1
+    .projektraster__me-text1{
         grid-column: 4 / 16 !important; 
         margin-bottom: 20px;
     }
