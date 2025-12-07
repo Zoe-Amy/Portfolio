@@ -117,10 +117,10 @@ body {
     transform: scale(1.05);
 }
 .projekte__projekt--CPdesign2 {
-    width: calc(146.16 / 4000 * 100%);
-    height: calc(163.85 / 2700 * 100%);
-    left: calc(2475.86 / 4000 * 100%);
-    top: calc(736.87 / 2700 * 100%);
+    width: calc(149 / 4000 * 100%);
+    height: calc(178 / 2700 * 100%);
+    left: calc(2474 / 4000 * 100%);
+    top: calc(766 / 2700 * 100%);
     transition: transform 0.2s ease-out;
 }
 .projekte__projekt--CPdesign2:hover{
@@ -322,7 +322,7 @@ body {
    portrait
 ======================================= */
 .projekte__projekt--zuzu{
-    width: calc(160 / 4000 * 100%);
+    width: calc(169 / 4000 * 100%);
     height: calc(240 / 2700 * 100%);
     left: calc(2163 / 4000 * 100%);
     top: calc(678 / 2700 * 100%);
@@ -1237,6 +1237,7 @@ body {
     .projektraster__me-bild1{
         grid-column: 4 / 16;
         grid-row: 4 / 5;
+        margin-bottom: 20px;
     }
 
 /* =======================================
@@ -1390,8 +1391,8 @@ body {
     .projektraster__typo-text1,
     .projektraster__foto-text1,
     .projektraster__foto-text2,
-    .projektraster__foto-text3
-    .projektraster__CP-text1
+    .projektraster__foto-text3,
+    .projektraster__CP-text1,
     .projektraster__me-text1{
         grid-column: 4 / 16 !important; 
         margin-bottom: 20px;
@@ -1422,7 +1423,6 @@ body {
 
 
 footer {
-    
     position: fixed;  
     bottom: 0; 
     right: 0; 
