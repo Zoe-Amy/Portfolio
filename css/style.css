@@ -1414,17 +1414,16 @@ body {
 .nav-arrow {
     position: fixed;
     z-index: 50;
-    font-size: 2em;
     text-decoration: none;
-    color: #000000; 
     padding: 10px;
-    transition: color 0.2s; 
+    transition: opacity 0.2s; 
     top: 50%;
     transform: translateY(-50%);
+    /* Setzen Sie die Höhe/Breite des Links, wenn das Bild keine intrinsische Größe hat */
 }
 
 .nav-arrow:hover {
-    color: #000;
+    opacity: 0.7; 
 }
 
 .left-arrow {
@@ -1433,6 +1432,12 @@ body {
 
 .right-arrow {
     right: 10px; 
+}
+
+.arrow-image {
+    display: block; 
+    height: 22px; 
+    width: auto; 
 }
 
 /* =======================================
