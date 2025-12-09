@@ -1234,11 +1234,40 @@ body {
         color: #000000; 
     }
 
+    .projektraster__me-titel3{
+        grid-column: 1 / 3;
+        grid-row: 5 / 6;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+        
+    }
+    .projektraster__me-text3 {
+        grid-column: 4 / 12;
+        grid-row: 5 / 6;
+        margin-bottom: 20px;
+    }
+
+    .projektraster__me-titel4{
+        grid-column: 1 / 3;
+        grid-row: 6 / 7;
+        text-align: right;
+        padding-left: 25%;
+        margin-bottom: 20px;
+        
+    }
+    .projektraster__me-text4 {
+        grid-column: 4 / 12;
+        grid-row: 6 / 7;
+        margin-bottom: 20px;
+    }
+
     .projektraster__me-bild1{
         grid-column: 4 / 16;
         grid-row: 4 / 5;
         margin-bottom: 20px;
     }
+
 
 /* =======================================
    Fotografie
@@ -1331,6 +1360,53 @@ body {
         grid-column: 4 / 16;
         grid-row: 11 / 12;
     }
+    .projektraster__foto-bild11{
+        grid-column: 4 / 16;
+        grid-row: 12 / 13;
+    }
+    .projektraster__foto-bild12{
+        grid-column: 4 / 10;
+        grid-row: 13 / 14;
+        margin-top: 20px;
+    }
+    .projektraster__foto-bild13{
+        grid-column: 10 / 16;
+        grid-row: 13 / 14;
+        margin-top: 20px;
+    }
+    .projektraster__foto-bild14{
+        grid-column: 4 / 10;
+        grid-row: 14 / 15;
+    }
+    .projektraster__foto-bild15{
+        grid-column: 10 / 16;
+        grid-row: 14 / 15;
+    }
+    .projektraster__foto-bild16{
+        grid-column: 4 / 10;
+        grid-row: 15 / 16;
+    }
+    .projektraster__foto-bild17{
+        grid-column: 10 / 16;
+        grid-row: 15 / 16;
+    }
+    .projektraster__foto-bild18{
+        grid-column: 4 / 10;
+        grid-row: 16 / 17;
+    }
+    .projektraster__foto-bild19{
+        grid-column: 10 / 16;
+        grid-row: 16 / 17;
+    }
+    .projektraster__foto-bild20{
+        grid-column: 4 / 10;
+        grid-row: 17 / 18;
+    }
+    .projektraster__foto-bild21{
+        grid-column: 10 / 16;
+        grid-row: 17 / 18;
+    }
+
 
 /* =======================================
    Navigierung
