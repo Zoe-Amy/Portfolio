@@ -1405,6 +1405,7 @@ body {
     .projektraster__foto-bild21{
         grid-column: 10 / 16;
         grid-row: 17 / 18;
+        margin-bottom: 20px;
     }
 
 
@@ -1485,6 +1486,12 @@ body {
     .projektraster__london-text5{
         grid-column: 10 / 16 !important; 
         margin-bottom: 20px;
+    }
+    .projektraster__Blickwechsel-animation{
+        grid-column: 8 / 12 ;
+        grid-row:7 / 8;
+        z-index: 2;
+        margin-top: 20px;
     }
 
     .nav-arrow {
