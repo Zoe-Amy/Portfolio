@@ -27,6 +27,27 @@ body {
     transform: scale(1.1);
 }
 
+#lang-switch {
+    position: fixed;
+    top: 0;        
+    right: 0;      
+    padding: 15px; 
+    background: none;
+    border: none;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#lang-switch img {
+    width: 22px;   
+    height: 22px;
+    transition: transform 0.2s;
+}
+
+#lang-switch:hover img {
+    transform: scale(1.1);
+}
+
 /* =======================================
    Projekte
 ======================================= */
